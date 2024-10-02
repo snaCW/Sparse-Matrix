@@ -1,0 +1,13 @@
+# Ignore vscode folder and files
+.vscode
+
+# Ignore compiled files
+*.exe
+*.h.gch
+*.h.pch
+*.out
+
+# Ignore any cpp files.
+# Classes are using template so they cannot
+# use cpp files.
+*.cpp
